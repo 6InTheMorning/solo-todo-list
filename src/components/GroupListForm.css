@@ -1,0 +1,33 @@
+.grouplist-form {
+  display: flex;
+  width: 220px;
+}
+
+.grouplist-form input {
+  width: 80%;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.group-create-button {
+  width: 20%;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 1rem;
+  background: black;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.group-create-button:hover {
+  background: #ced4da;
+}
